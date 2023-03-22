@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+</head>
+<body>
+    <form method="post" action="http://localhost:3001/createtodo">
+        Enter a task
+        <input type="text" name="todo" placeholder="I'm a todo">
+        <br>
+        Enter priority for the task
+        <input type="number" min="1" max="9" name="priority">
+        <br>
+        <input type="submit" value="create todo"> 
+    </form>
+</body>
+</html>
